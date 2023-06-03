@@ -23,7 +23,7 @@ class TestTicTacToe(unittest.TestCase):
         game = TicTacToe()
         for i in range(9):
             game.make_move(i)
-        self.assertEqual(game.check_win(), 'Empate')
+        self.assertEqual(game.check_win(), 'Draw')
 
 if __name__ == '__main__':
     unittest.main()
